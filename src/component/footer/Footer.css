@@ -1,0 +1,39 @@
+.Footer {
+    margin-top: 120px;
+  }
+  .Footer h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #120D26;
+  }
+  .Footer .nav-link {
+    margin-left: -15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #94959A;
+  }
+  .Footer .nav-link:hover {
+    color: #3865F4;
+  }
+  .Footer hr {
+    margin-top: 50px;
+    width: 100%;
+  }
+  footer {
+    padding: 10px 0px 10px 0px;
+  }
+  footer h2 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #94959A;
+  }
+  footer img {
+    width: 20px;
+  }
+  footer img:hover {
+    opacity: 0.7;
+  }

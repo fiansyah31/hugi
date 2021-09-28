@@ -1,38 +1,154 @@
-.App {
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.Active {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #3865F4;
+}
+.btn-primary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+h2 {
   text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #94959A;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #120D26;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-secondary {
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #3865F4;
+  border: 0px;
+}
+.btn-secondary:hover {
+  color: #3865F4;
+  background-color: #eeeeee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media (max-width:991px) {
+  .Hero-title {
+  text-align: left;
+    font-size: 30px;
+   line-height: 50px;
+  }
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .Hero-subtitle {
+   font-size: 16px;
+  }
+  .Page-price .card-subtitle {
+    font-size: 14px;
+  }
+  .Content-comment .card-title {
+   font-size: 16px;
+  }
+  .Content-comment .card-subtitle {
+    font-size: 14px;
+  } 
+  .Content-comment .card-text {
+    font-size: 13px;
+  }
+  .Content-info .Info-title {
+    font-size: 30px;
+  }
+  .Content-info .Info-subtitle {
+    font-size: 16px;
+  }
+  .Content-try .card {
+    padding: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:767px) {
+  .images-hero {
+    margin-top: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .Page-price .card{
+    margin-bottom: 30px;
   }
+  .Page-price .card-subtitle {
+    font-size: 16px;
+  }
+  .Content-info .images-info {
+    margin-top: 50px;
+  }
+  .Content-try .card {
+    background: #3865F4;
+    border-radius: 16px;
+    padding: 10px !important;
+  }
+  .Content-try .card-subtitle {
+    font-size: 14px;
+  }
+  .Images-content-pricing {
+    margin-top: 30px;
+  }
+  .Content-pricing h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .Form-contact {
+    margin-top: 60px !important;
+  }
+ 
 }
+@media (max-width: 576px) {
+  .img-sponsor {
+    width: 150px;
+  }
+  .Content-try {
+    margin-top:  70px;
+  }
+  .Content-try .card {
+    background: #3865F4;
+    border-radius: 16px;
+    padding: 10px;
+  }
+  .Content-try .card-title {
+    width: 100% !important;
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .Footer h3 {
+    font-size: 18px;
+  }
+  .Footer .nav-link {
+    font-size: 14px;
+  }
+  .Form-contact {
+  width: 100% !important;
+  }
+  }
